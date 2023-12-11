@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#body{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    flex-direction: column;
+    flex: 1 1 0;
+    min-height: 100vh;
+}
+
+#navBar{
+    background-color: #274d85;
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 0.8fr 1fr 1fr;
+    align-items: center;
+}
+
+.part{
+    flex: 1;
+}
+
+#imgLogo{
+    /*margin-right: 349px;*/
+    margin-left: 20px;
+}
+
+#logo{
+    width: 120px;
+    height: 120px;
+}
+
+#searchbar{
+    display: flex;
+    /*width: 1000px;*/
+    align-items: center;
+}
+
+#lupa{
+    width: 60px;
+    height: 60px;
+}
+
+#inputSearch{
+    border-radius: 15px;
+    background-color: #d9d9d9;
+    border: #d9d9d9;
+    font-size: 25px;
+}
+
+.barraPesquisa{
+    display: flex;
+    background-color: #d9d9d9;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+#textNav{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    /*margin-left: 300px;*/
+    align-items: center;
+}
+
+#imgCarrinho{
+    width: 80px;
+    margin: 0%;
+}
+
+.pagelink{
+    margin: 10px;
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+}
